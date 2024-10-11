@@ -7,33 +7,32 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div style="text-align: center;">
-        <h1 style="text-align: center;">Currency Converter</h1>
-        <h3 style="text-align: center; text-decoration: underline;">Cyter</h3>
-        
-        <div>
-             <p>Value to Convert:</p>
-             <input type="number" name="" id="" min="0">
+    <header>
+        <h1>Currency Converter</h1>
+        <h3 style="text-decoration: underline;">Cyter</h3>
+    </header>
+    <form>
+        <div id="input">
+            <label>Value to Convert</label>
+            <input name="amount" id="value-input" min="0" placeholder="000">
         </div>
-        <div>
-             <p>From:</p>
-             <input type="text" name="" id="">
+        <div id="currency-src">
+            <label for="currency-src">From</label>
+            <select name="initial currency" class="currency-selector"></select>
         </div>
-        <div>
-            <p>To:</p>
-            <input type="text" name="" id="">
-       </div>
-
-       <div>
-             <button type="button"> Clear</button>
-             <button type="button"> Calculate</button>
-       </div>
-
-       <div>
-        Answer:
-       </div>
-
-    </div>
+        <div id="currency-target">
+            <label for="currency-target">To</label>
+            <select name="initial currency" class="currency-selector"></select>
+        </div>
+        <div id="controls">
+            <button type="button" id="clear-button" class="button">Clear</button>
+            <button type="button" id="calc-button" class="button"> Calculate</button>
+        </div>
+        <div id="output">
+            <label for="value-output">Answer</label>
+            <div id="value-output"></div>
+        </div>
+    </form>
     <script src="../js/main.js"></script>
 </body>
 </html>
