@@ -2,7 +2,7 @@
     --border-color: #4DB6AC;
     --border-radius: 0.5rem;
     --background-color: #E0F2F1;
-    --button-color: #4DB6AC;
+    --button-color: #004D40;
     --text-color: #004D40;
     --border-width: 1px;
     --btn-text: var(--background-color);
@@ -21,8 +21,15 @@ body {
 }
 
 header {
-    text-align: center;
     color: var(--text-color);
+    padding: 0 1rem;
+
+    .cyter {
+        text-align: left;
+    }
+    .description {
+        text-align: center;
+    }
 }
 
 form {
