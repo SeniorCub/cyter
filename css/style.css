@@ -23,6 +23,7 @@ body {
 header {
     color: var(--text-color);
     padding: 0 1rem;
+    width:100%;
 
     .cyter {
         text-align: left;
@@ -117,5 +118,11 @@ form {
     background-color: #FFFFFF;
     border-radius: var(--border-radius);
     box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        padding: 0 3rem;
+    }
 }
 
