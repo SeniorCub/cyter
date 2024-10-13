@@ -4,7 +4,7 @@
     --background-color: #E0F2F1;
     --button-color: #004D40;
     --text-color: #004D40;
-    --border-width: 1px;
+    --border-width: 2px;
     --btn-text: var(--background-color);
     --text-weight: 500;
     --font-family: ;
@@ -97,6 +97,7 @@ form {
         height: 2rem;
         color: var(--btn-text);
         font-weight: var(--text-weight);
+        font-size: 1rem;
         border-radius: var(--border-radius);
         box-shadow: 1px 1px 1px 1px rgba(00, 00, 00, 0.1);
         cursor: pointer;
@@ -110,8 +111,9 @@ form {
 #value-output {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width:100%;
-    height: 2rem;
+    height: 4rem;
     border-style: solid;
     border-width: var(--border-width);
     border-color: var(--border-color);
