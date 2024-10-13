@@ -94,7 +94,7 @@ form {
     .button {
         background-color: var(--button-color);
         border: 0;
-        height: 2rem;
+        padding: 2rem;
         color: var(--btn-text);
         font-weight: var(--text-weight);
         font-size: 1rem;
