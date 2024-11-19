@@ -1,7 +1,7 @@
 let data; // Move the data variable to a higher scope
 
 document.addEventListener('DOMContentLoaded', function () {
-    const apiUrl = `https://open.er-api.com/v6/latest/USD`; // Fetching latest rates for USD
+    const apiUrl = `https://open.er-api.com/v6/latest/NGN`; // Fetching latest rates for USD
 
     // Make the API request using fetch
     fetch(apiUrl)
